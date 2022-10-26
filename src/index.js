@@ -297,7 +297,17 @@ class ReactImageVideoLightbox extends React.Component {
             <span>{this.state.index + 1}</span> / <span>{this.props.data.length}</span>
           </div>
         }
-
+          <div
+            style={{
+              position: 'absolute',
+              top: '0px',
+              left: '70px',
+              padding: '15px',
+              color: 'white',
+              fontWeight: 'bold'
+            }}>
+            <span>{this.props.data[this.state.index].tanggal}</span>
+          </div>
         <div
           style={{
             position: 'absolute',
@@ -381,7 +391,7 @@ class ReactImageVideoLightbox extends React.Component {
             }}></div>
           </div>
         }
-
+        
         {
           resources[this.state.index]
         }
