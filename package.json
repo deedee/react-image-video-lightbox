@@ -23,8 +23,8 @@
   ],
   "author": "Ngineer101 <nicolaasb@pm.me>",
   "license": "MIT",
-  "repository": "https://github.com/Ngineer101/react-image-video-lightbox",
-  "bugs": "https://github.com/Ngineer101/react-image-video-lightbox/issues",
+  "repository": "https://github.com/deedee/react-image-video-lightbox",
+  "bugs": "https://github.com/deedee/react-image-video-lightbox/issues",
   "files": [
     "css",
     "es",
