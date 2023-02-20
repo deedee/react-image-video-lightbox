@@ -305,7 +305,8 @@ class ReactImageVideoLightbox extends React.Component {
               left: '70px',
               padding: '15px',
               color: 'white',
-              fontWeight: 'bold'
+              fontWeight: 'bold',
+              zIndex: '9999'
             }}>
             <span>{this.props.data[this.state.index].tanggal}</span>
           </div>
