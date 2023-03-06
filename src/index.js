@@ -318,7 +318,8 @@ class ReactImageVideoLightbox extends React.Component {
             padding: '10px',
             color: '#FFFFFF',
             cursor: 'pointer',
-            fontSize: `${this.state.iconSize * 0.8}px`
+            fontSize: `${this.state.iconSize * 0.8}px`,
+            zIndex: '9998'
           }}
           onClick={this.props.onCloseCallback}>
           <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF">
