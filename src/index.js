@@ -313,7 +313,7 @@ class ReactImageVideoLightbox extends React.Component {
         <div
           style={{
             position: 'absolute',
-            top: '0px',
+            top: '40px',
             right: '0px',
             padding: '10px',
             color: '#FFFFFF',
