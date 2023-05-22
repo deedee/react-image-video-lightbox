@@ -4,3 +4,4 @@ add:
 <style>body{font-family: Montserrat, sans-serif;}</style><title>GEOPORTAL DPRKP KOTA PADANG</title>
 in head
 
+copy demo/dist/* to <django>/mnt/volumes/statics/static/viewer/
